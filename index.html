@@ -1,89 +1,92 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ciberseguridad</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #333;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-        nav {
-            background-color: #444;
-            padding: 10px;
-            text-align: center;
-        }
-        nav a {
-            color: white;
-            margin: 0 10px;
-            text-decoration: none;
-        }
-        main {
-            padding: 20px;
-        }
-        section {
-            margin-bottom: 20px;
-        }
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 10px 0;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Página sencilla y decente</title>
+  <style>
+    /* Reset básico */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: #f5f7fa;
+      color: #333;
+      line-height: 1.6;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      background: #0077cc;
+      color: white;
+      padding: 1rem 2rem;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      font-weight: 700;
+    }
+
+    main {
+      flex: 1;
+      padding: 2rem;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    main h2 {
+      margin-bottom: 1rem;
+      color: #0077cc;
+    }
+
+    main p {
+      margin-bottom: 1.5rem;
+      font-size: 1.1rem;
+    }
+
+    main img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      background: #222;
+      color: #aaa;
+      text-align: center;
+      padding: 1rem 0;
+      font-size: 0.9rem;
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      main {
+        padding: 1rem;
+      }
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>Especialidad en Ciberseguridad</h1>
-    </header>
-    <nav>
-        <a href="#introduccion">Introducción</a>
-        <a href="#importancia">Importancia</a>
-        <a href="#carreras">Carreras</a>
-        <a href="#contacto">Contacto</a>
-    </nav>
-    <main>
-        <section id="introduccion">
-            <h2>Introducción</h2>
-            <p>La ciberseguridad se refiere a la práctica de proteger sistemas, redes y programas de ataques digitales. Estos ataques suelen tener como objetivo acceder, cambiar o destruir información confidencial, extorsionar a los usuarios o interrumpir procesos normales de negocio.</p>
-        </section>
+  <header>
+    <h1>Mi Página Web Sencilla</h1>
+  </header>
 
-        <section id="importancia">
-            <h2>Importancia de la Ciberseguridad</h2>
-            <p>En el mundo digital de hoy, la ciberseguridad es crucial. Las amenazas cibernéticas están en constante evolución, y sin las medidas adecuadas de seguridad, la información personal y profesional puede ser vulnerable a los ciberataques. Proteger los datos y mantener la privacidad es fundamental para individuos y organizaciones.</p>
-        </section>
+  <main>
+    <h2>Bienvenido</h2>
+    <p>Esta es una página web sencilla pero con un diseño limpio y moderno. Puedes usarla como base para tu proyecto o para aprender sobre HTML y CSS.</p>
+    <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=900&q=80" alt="Paisaje natural" />
+  </main>
 
-        <section id="carreras">
-            <h2>Carreras en Ciberseguridad</h2>
-            <p>Las carreras en ciberseguridad son diversas y en constante demanda. Los profesionales pueden especializarse en áreas como:</p>
-            <ul>
-                <li>Analista de seguridad</li>
-                <li>Ingeniero de redes y seguridad</li>
-                <li>Consultor en ciberseguridad</li>
-                <li>Especialista en cumplimiento y auditoría</li>
-                <li>Respuesta a incidentes y gestión de riesgos</li>
-            </ul>
-        </section>
-
-        <section id="contacto">
-            <h2>Contacto</h2>
-            <p>Si estás interesado en aprender más sobre la ciberseguridad o quieres seguir una carrera en este campo, no dudes en contactarnos en <a href="mailto:info@ciberseguridad.com">info@ciberseguridad.com</a>.</p>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2024 Especialidad en Ciberseguridad</p>
-    </footer>
+  <footer>
+    &copy; 2025 Mi Página Web
+  </footer>
 </body>
 </html>
